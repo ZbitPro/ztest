@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/ZbitPro/ztest/tree/main .
+RUN git clone https://github.com/ZbitPro/ztest.git .
 
 RUN pip3 install -r requirements.txt
 
