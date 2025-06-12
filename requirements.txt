@@ -1,0 +1,7 @@
+streamlit
+requests
+pandas
+streamlit-autorefresh
+fastapi
+uvicorn[standard]
+python-dotenv
